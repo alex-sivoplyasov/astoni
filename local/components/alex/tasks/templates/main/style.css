@@ -1,0 +1,34 @@
+.tasks__edit {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.tasks .table .done {
+    background-color: green;
+}
+
+.task-form {
+    display: none;
+}
+
+.task-form.active {
+    display: block;
+}
+
+.result {
+    display: none;
+}
+
+.result.active {
+    display: block;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-close {
+    cursor: pointer;
+}
